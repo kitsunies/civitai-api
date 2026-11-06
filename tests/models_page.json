@@ -1,0 +1,463 @@
+{
+ "items": [
+  {
+   "id": 257749,
+   "name": "Pony Diffusion V6 XL",
+   "coverImageId": null,
+   "allowNoCredit": false,
+   "allowCommercialUse": [
+    "Image",
+    "RentCivit"
+   ],
+   "allowDerivatives": true,
+   "allowDifferentLicense": false,
+   "type": "Checkpoint",
+   "availability": "Public",
+   "userId": 492754,
+   "hasActivePaidAccess": false,
+   "baseModels": [
+    "Pony",
+    "SD 1.5"
+   ],
+   "supportsGeneration": true,
+   "stats": {
+    "downloadCount": 1128118,
+    "thumbsUpCount": 77134,
+    "thumbsDownCount": 345,
+    "commentCount": 1667,
+    "tippedAmountCount": 1036499
+   },
+   "creator": {
+    "username": "PurpleSmartAI",
+    "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60a1a061-10ef-4bf5-a081-13a1a578fbc6/width=96/PurpleSmartAI.jpeg"
+   },
+   "tags": [
+    "western art",
+    "base model",
+    "my little pony"
+   ],
+   "modelVersions": [
+    {
+     "id": 290640,
+     "index": 0,
+     "name": "V6 (start with this one)",
+     "baseModel": "Pony",
+     "baseModelType": "Standard",
+     "publishedAt": "2026-04-29T20:17:54.942Z",
+     "flags": 8,
+     "availability": "Public",
+     "trainedWords": [],
+     "vaeId": 155933,
+     "coveredNext": true,
+     "paidAccess": null,
+     "stats": {
+      "downloadCount": 1050341,
+      "thumbsUpCount": 73035,
+      "thumbsDownCount": 340
+     },
+     "supportsGeneration": true,
+     "files": [
+      {
+       "id": 228616,
+       "sizeKB": 6775430.712890625,
+       "name": "v6.safetensors",
+       "overrideName": null,
+       "type": "Model",
+       "pickleScanResult": "Success",
+       "pickleScanMessage": "No Pickle imports",
+       "virusScanResult": "Success",
+       "virusScanMessage": null,
+       "scannedAt": "2025-09-30T18:34:49.911Z",
+       "metadata": {
+        "format": "SafeTensor",
+        "size": "pruned",
+        "fp": "fp16"
+       },
+       "hashes": {
+        "AutoV1": "E577480D",
+        "AutoV2": "67AB2FD8EC",
+        "SHA256": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3",
+        "CRC32": "CFAD6694",
+        "BLAKE3": "E0BB278C0127A4AC4267498174E0226D6A0A77A636BDF82B770CF05D5B85D3CA",
+        "AutoV3": "E023C143436D",
+        "SHA256_12": "67AB2FD8EC43"
+       },
+       "downloadUrl": "https://civitai.red/api/download/models/290640",
+       "primary": true
+      },
+      {
+       "id": 233666,
+       "sizeKB": 326798.009765625,
+       "name": "sdxl_vae.safetensors",
+       "overrideName": null,
+       "type": "VAE",
+       "pickleScanResult": "Success",
+       "pickleScanMessage": "No Pickle imports",
+       "virusScanResult": "Success",
+       "virusScanMessage": null,
+       "scannedAt": "2024-01-12T23:21:01.892Z",
+       "metadata": {
+        "format": "SafeTensor",
+        "size": null,
+        "fp": null
+       },
+       "hashes": {
+        "AutoV1": "584F63AB",
+        "AutoV2": "235745AF8D",
+        "SHA256": "235745AF8D86BF4A4C1B5B4F529868B37019A10F7C0B2E79AD0ABCA3A22BC6E1",
+        "CRC32": "5BB75FB4",
+        "BLAKE3": "D46EB6988A26BCAF9E9CFA5E5C6264C4EE1A70F2018F33B8BC2DD7CA0681B490",
+        "AutoV3": "55F20A1016E7",
+        "SHA256_12": "235745AF8D86"
+       },
+       "downloadUrl": "https://civitai.red/api/download/models/290640?type=VAE&format=SafeTensor"
+      }
+     ],
+     "images": [
+      {
+       "id": 5706937,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4790674c-e16d-4dc7-b384-af4381fcfa3f/original=true/5706937.jpeg",
+       "width": 1200,
+       "height": 1600,
+       "hash": "UAGtHoRs0dxUKH;^J8OG0z%N{goN0MwM$%V=",
+       "type": "image",
+       "hasMeta": false,
+       "hasPositivePrompt": false,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5275260,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca18d37e-be8b-4a32-99d4-24e25b061a97/original=true/5275260.jpeg",
+       "width": 950,
+       "height": 950,
+       "hash": "UVM7fUEM~pv}_NRPxaxurC%1NHX9_3x]S$Mx",
+       "type": "image",
+       "hasMeta": false,
+       "hasPositivePrompt": false,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5305869,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1d3824f-5dae-4139-86cc-ad755fb93463/original=true/5305869.jpeg",
+       "width": 1152,
+       "height": 896,
+       "hash": "U9IEqd9F_M=v00tQ0gD+_LozM|xaTdRk=_-n",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5306294,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a167c45-98c0-4bb2-a752-d0c2f59416bb/original=true/5306294.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UCHny#N200s:01xVrxof_5s:tVR-9mRoS~Rk",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5295116,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/227f8314-1d23-47f6-a0a9-64c2f99b221d/original=true/5295116.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UaH-y5~VSNWU$+-p-:t7Rit7t2x[T0ocjYfP",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5293056,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd8d8a1d-5106-411d-a7ba-996d77d6ff0e/original=true/5293056.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UBAdZcMy00x]_NRjMxW.4TR*.TRPR5S2ozr=",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5306585,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/878ee113-8db8-4155-8967-4f77cfc4ab8c/original=true/5306585.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UALN-yH6_L{.EpS50+M$3-br]hxrGaw4]ioy",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5293520,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2134a392-39f6-4127-bba8-3c7d3cbb4f30/original=true/5293520.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UVJQ+wbJY4t4~AkWJWS5sRofRpbbX9r=niOF",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5307413,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b1d4162-4d60-4309-8644-01bd3e35cf57/original=true/5307413.jpeg",
+       "width": 1152,
+       "height": 896,
+       "hash": "UAHU:~4=?@.60nxZ56SKI.NHDk9at+ox=|aL",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5307774,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07d7eba1-e02f-462c-ad77-a5e91c257a3c/original=true/5307774.jpeg",
+       "width": 1152,
+       "height": 896,
+       "hash": "UEJt#b4:~V?b%g%2i^9GR5xaD%E2_3MxRk?b",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5308042,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2bd1880d-309d-41f6-93de-57e401a19742/original=true/5308042.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UKH_lQ4:?GIU_2Io?HxusptQ4.%2~qX9MxnO",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5294967,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da94cb58-2410-4ab1-b0cd-17d76ee0bbe0/original=true/5294967.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UNIEX}JA_MM_-:tlS$v}Xmn$%2Rk%1%LoLkW",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5305274,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a51d187c-b96c-4ca6-9f4b-40ac2ce33063/original=true/5305274.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "UUIq+FS#?]$%tPV@oLozS$jZeTX7^*oyM|aL",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      }
+     ],
+     "downloadUrl": "https://civitai.red/api/download/models/290640"
+    },
+    {
+     "id": 298112,
+     "index": 1,
+     "name": "V6 Turbo DPO merge",
+     "baseModel": "Pony",
+     "baseModelType": "Standard",
+     "publishedAt": "2024-01-14T06:59:00.622Z",
+     "flags": 0,
+     "availability": "Public",
+     "trainedWords": [],
+     "vaeId": null,
+     "coveredNext": true,
+     "paidAccess": null,
+     "stats": {
+      "downloadCount": 24897,
+      "thumbsUpCount": 5861,
+      "thumbsDownCount": 1
+     },
+     "supportsGeneration": false,
+     "files": [
+      {
+       "id": 234948,
+       "sizeKB": 6776592.689453125,
+       "name": "pony-v6-dpo-turbo-simple-alt.safetensors",
+       "overrideName": null,
+       "type": "Model",
+       "pickleScanResult": "Success",
+       "pickleScanMessage": "No Pickle imports",
+       "virusScanResult": "Success",
+       "virusScanMessage": null,
+       "scannedAt": "2025-10-07T19:42:39.924Z",
+       "metadata": {
+        "format": "SafeTensor",
+        "size": "full",
+        "fp": "fp16"
+       },
+       "hashes": {
+        "AutoV1": "16ECF898",
+        "AutoV2": "9322F9D91B",
+        "SHA256": "9322F9D91B28ABF09E4137BC02EC806AF23510221A164E71B81778E61CC3B4B2",
+        "CRC32": "BA201CAC",
+        "BLAKE3": "65B4E5A1E83C6A0133C1981C464E2F2D1ACA7ADE10BBC661C3C9EA63A848FE06",
+        "AutoV3": "85C6CF1A3114",
+        "SHA256_12": "9322F9D91B28"
+       },
+       "downloadUrl": "https://civitai.red/api/download/models/298112",
+       "primary": true
+      }
+     ],
+     "images": [
+      {
+       "id": 5476477,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00e26c84-de8b-4c24-bafa-6954fd1714a7/original=true/5476477.jpeg",
+       "width": 1024,
+       "height": 1024,
+       "hash": "U8Kcw$%fUaxs%3of-6i{ozNHM{S5xuwcOXbb",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5476647,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ff4454f0-993f-46be-80b1-fc808e166350/original=true/5476647.jpeg",
+       "width": 896,
+       "height": 1152,
+       "hash": "U5HKbDnF0J%9Nxs97EVux}THDe4=}@9tOU=f",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      },
+      {
+       "id": 5476479,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4301a4ee-adf3-41be-8e45-8e7155a73082/original=true/5476479.jpeg",
+       "width": 1024,
+       "height": 1024,
+       "hash": "U7IXNvD*LN?G#jNGrDo}.mtltRt7N4of%eW?",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      }
+     ],
+     "downloadUrl": "https://civitai.red/api/download/models/298112"
+    },
+    {
+     "id": 297064,
+     "index": 3,
+     "name": "V6-1.5",
+     "baseModel": "SD 1.5",
+     "baseModelType": "Standard",
+     "publishedAt": "2024-01-13T09:04:08.075Z",
+     "flags": 0,
+     "availability": "Public",
+     "trainedWords": [],
+     "vaeId": 121315,
+     "coveredNext": true,
+     "paidAccess": null,
+     "stats": {
+      "downloadCount": 35286,
+      "thumbsUpCount": 550,
+      "thumbsDownCount": 5
+     },
+     "supportsGeneration": false,
+     "files": [
+      {
+       "id": 234029,
+       "sizeKB": 2082642.022460938,
+       "name": "pony_v6.safetensors",
+       "overrideName": null,
+       "type": "Model",
+       "pickleScanResult": "Success",
+       "pickleScanMessage": "No Pickle imports",
+       "virusScanResult": "Success",
+       "virusScanMessage": null,
+       "scannedAt": "2025-10-07T19:44:10.229Z",
+       "metadata": {
+        "format": "SafeTensor",
+        "size": "pruned",
+        "fp": "fp16"
+       },
+       "hashes": {
+        "AutoV1": "B832426C",
+        "AutoV2": "2130162F1B",
+        "SHA256": "2130162F1B5660401FDA01FF07C22249F2673BC22C3E43C36CFC5583B5A802AE",
+        "CRC32": "B4E127A6",
+        "BLAKE3": "0501A74F91EAA4D67AF7B25F8C8AF2870CF0A28B99438D9F4B4818BA43C3D3EE",
+        "AutoV3": "F1219017A507",
+        "SHA256_12": "2130162F1B56"
+       },
+       "downloadUrl": "https://civitai.red/api/download/models/297064",
+       "primary": true
+      },
+      {
+       "id": 87194,
+       "sizeKB": 395173.7822265625,
+       "name": "kl-f8-anime.ckpt",
+       "overrideName": null,
+       "type": "VAE",
+       "pickleScanResult": "Success",
+       "pickleScanMessage": "No Pickle imports",
+       "virusScanResult": "Success",
+       "virusScanMessage": null,
+       "scannedAt": "2023-04-10T22:52:08.458Z",
+       "metadata": {
+        "format": "Other",
+        "size": null,
+        "fp": null
+       },
+       "hashes": {
+        "AutoV1": "975B2546",
+        "AutoV2": "4D3BE146D6",
+        "SHA256": "4D3BE146D621226AB3871422000C9073AB1D7991218D3B1FDD6B15F3D90EADE3",
+        "CRC32": "78ABB8A5",
+        "BLAKE3": "58C5003E9151020DCC66587EF0A69F8806812CB3E270D6F7E57FCF9BD9E73CCB",
+        "SHA256_12": "4D3BE146D621"
+       },
+       "downloadUrl": "https://civitai.red/api/download/models/297064?type=VAE&format=Other"
+      }
+     ],
+     "images": [
+      {
+       "id": 5442448,
+       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac7a4b11-d476-4c39-b57a-8a0867dbebce/original=true/5442448.jpeg",
+       "width": 768,
+       "height": 768,
+       "hash": "UsKduLt8?wxayCSKrsn+tSkCsBf8xvnjs:kB",
+       "type": "image",
+       "hasMeta": true,
+       "hasPositivePrompt": true,
+       "onSite": false,
+       "remixOfId": null
+      }
+     ],
+     "downloadUrl": "https://civitai.red/api/download/models/297064"
+    }
+   ]
+  }
+ ],
+ "metadata": {
+  "nextCursor": "63212|1266322|43331",
+  "nextPage": "https://civitai.red/api/v1/models?limit=1&cursor=63212%7C1266322%7C43331"
+ }
+}
